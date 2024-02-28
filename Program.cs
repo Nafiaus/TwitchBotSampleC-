@@ -6,8 +6,8 @@ namespace TwitchBot
     class Program
     {
 
-        static string oauth = "oauth:yevs6k8g77wgrl9j62788olkc56ozm";
-        static string channelName = "nafiaus";
+        static string oauth = [YOUR_OAUTH_TOKEN];
+        static string channelName = [YOUR_CHANNEL_NAME_TO_JOIN];
         
         static TwitchChatHandle chat = new TwitchChatHandle(oauth, channelName);
         static void Main(string[] args)
